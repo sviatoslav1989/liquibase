@@ -8,7 +8,7 @@
 		<version>3.6.1</version>
 	</parent>
 
-	<artifactId>liquibase-core</artifactId>
+	<artifactId>liquibase-core-macmonitor</artifactId>
 	<name>Liquibase Core</name>
 	<packaging>jar</packaging>
 
@@ -147,7 +147,7 @@
     </dependencies>
 
 	<build>
-    <finalName>liquibase-${project.version}</finalName>
+    <finalName>liquibase-macmonitor-${project.version}</finalName>
 
 		<resources>
 			<resource>
